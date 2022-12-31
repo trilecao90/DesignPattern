@@ -7,7 +7,7 @@
       "name": "Final.out",
       "program": "${workspaceFolder}/AbstractFactory/Final.out",
       "args": [],
-      "stopAtEntry": true,
+      "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": false,
