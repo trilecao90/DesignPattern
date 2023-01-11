@@ -1,5 +1,5 @@
-CC := g++ -g
-CCFLAGS := -pthread
+CC := g++
+CCFLAGS := -g -pthread
 LDFLAGS :=
 
 # AbstractFactory/ Singleton/
