@@ -2,11 +2,11 @@ CC := g++
 CCFLAGS := -g -pthread
 LDFLAGS :=
 
-# AbstractFactory/ Singleton/
+# AbstractFactory/ SingletonPattern/
 SUBDIRS := $(wildcard */)
 
-CCFLAGS += -I $(SUBDIRS)
-LDFLAGS += -L $(SUBDIRS)
+CCFLAGS += $(addprefix -I , $(SUBDIRS))
+LDFLAGS += $(addprefix -L , $(SUBDIRS))
 
 export CC
 export CCFLAGS
